@@ -95,7 +95,7 @@
                    type="email"
                    id="mce-EMAIL"
                    name="EMAIL">
-            <label class="mdl-textfield__label" name="EMAIL" for="mce-EMAIL">
+            <label class="mdl-textfield__label" for="mce-EMAIL">
               Email (required)
             </label>
           </div>
@@ -130,9 +130,14 @@
     </label>
     	<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
     </div>
-    <div class="mc-field-group">
-    	<label for="mce-FNAME">First Name </label>
-    	<input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+    <div class="mc-field-group input-wrapper">
+      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+        <input type="text"
+               value=""
+               name="FNAME"
+               class="mdl-textfield__input" id="mce-FNAME" >
+        <label class="mdl-textfield__label" for="mce-FNAME">First Name </label>
+      </div>
     </div>
     <div class="mc-field-group">
     	<label for="mce-LNAME">Last Name </label>
