@@ -92,6 +92,11 @@ h1, h2, h3, h4, h5, h6{
   margin-left: auto;
 }
 
+#header-content > #links > a{
+  margin: 0;
+  padding: 5px;
+}
+
 /* WELCOME STYLES */
 #welcome{
   width: 100%;
@@ -221,6 +226,11 @@ h1, h2, h3, h4, h5, h6{
   #header-content > #links{
     margin-top: 0.5em;
     margin-left: 0;
+  }
+
+  #header-content > #links > a{
+    margin: 0;
+    padding: 0px;
   }
 }
 
